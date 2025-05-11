@@ -60,3 +60,14 @@ curl -Ls "https://get.maestro.mobile.dev" | bash
 maestro --version
 
 # Should output version 1.30+
+
+## Project Structure
+
+```bash
+.
+├── android/                  # Android native code
+├── ios/                      # iOS native code
+├── e2e/                      # Maestro test suites
+│   └── artifacts/            # Test outputs
+├── src/                      # React Native source
+```
