@@ -1,43 +1,48 @@
-# React Native with Maestro Testing
+# 📱 React Native with Maestro Testing
 
-## Introduction
+## 🚀 Introduction
 
 This repository contains a React Native mobile application with integrated Maestro end-to-end testing. The project demonstrates how to implement reliable UI testing workflows for cross-platform mobile apps using Maestro's declarative testing approach.
 
-Key features:
+✨ **Key Features:**
 
-- Production-ready React Native (v0.72+) base
-- Pre-configured Maestro test suite
-- Sample test flows for common mobile patterns
+- ⚛️ Production-ready React Native (v0.72+) base
+- 🧪 Pre-configured Maestro test suite
+- 📲 Sample test flows for common mobile patterns
 
-## Maestro with React Native
+---
+
+## 🧭 Maestro with React Native
 
 Maestro is the next-generation mobile UI testing framework that offers:
 
-**Why Maestro for React Native?**
-✔ Flakiness-resistant tests  
-✔ No need for explicit test IDs (works with text visibility)  
-✔ YAML-based test definitions  
-✔ Cross-platform (Android & iOS) testing  
-✔ Rapid test execution
+### ✅ Why Maestro for React Native?
 
-**Key Integration Points:**
+- 🧱 Flakiness-resistant tests
+- 👁️ No need for explicit test IDs (works with text visibility)
+- 📄 YAML-based test definitions
+- 📱 Cross-platform (Android & iOS) testing
+- ⚡ Rapid test execution
 
-1. Works with React Native's rendering layer
-2. Supports both JavaScript and native components
-3. Handles React Navigation transitions
-4. Compatible with state management solutions (Redux, MobX)
+### 🔗 Key Integration Points:
 
-## Setup Guide
+1. 🖼️ Works with React Native's rendering layer
+2. 🔌 Supports both JavaScript and native components
+3. 🔄 Handles React Navigation transitions
+4. 💾 Compatible with state management solutions (Redux, MobX)
 
-### 1. System Requirements
+---
 
-- Node.js v16+
-- Java JDK 11 (for Android)
-- Xcode 14+ (for iOS)
-- Ruby 2.6+ (for Maestro)
+## 🛠️ Setup Guide
 
-### 2. Project Installation
+### 1. 📋 System Requirements
+
+- 🟢 Node.js v16+
+- ☕ Java JDK 11 (for Android)
+- 🍎 Xcode 14+ (for iOS)
+- 💎 Ruby 2.6+ (for Maestro)
+
+### 2. 📦 Project Installation
 
 ```bash
 # Clone repository
@@ -51,17 +56,17 @@ npm install
 cd ios && pod install && cd ..
 ```
 
-# Install Maestro CLI
+# 📥 Install Maestro CLI
 
 curl -Ls "https://get.maestro.mobile.dev" | bash
 
-# Verify installation
+# ✅ Verify Installation
 
 maestro --version
 
-# Should output version 1.30+
+## Should output version 1.30+
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 
@@ -72,9 +77,9 @@ maestro --version
 ├── src/                      # React Native source
 ```
 
-## Running Tests
+## ▶️ Running Tests
 
-### Basic Commands
+### 🧪 Basic Commands
 
 ```bash
 # Run all test suites
@@ -87,7 +92,7 @@ maestro test e2e/login-flow.yaml
 maestro test --device=iPhone_15 e2e/
 ```
 
-### Advanced Options
+### 🛠️ Advanced Options
 
 ```bash
 # Run with verbose output
@@ -99,3 +104,12 @@ maestro test --tags=critical e2e/
 # Generate JUnit report
 maestro test --format=junit e2e/ > e2e/artifacts/report.xml
 ```
+
+## 🤔 How to contribute
+
+Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/avisek123/helper-box/issues).
+Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
+
+## 👨‍💻 About Me
+
+![WhatsApp Image 2024-09-19 at 7 49 24 PM](https://github.com/user-attachments/assets/a6204283-d754-44c8-a1c7-2cb0dffcd316)
