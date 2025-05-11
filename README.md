@@ -85,9 +85,11 @@ maestro test e2e/login-flow.yaml
 
 # Run tests on specific device
 maestro test --device=iPhone_15 e2e/
+```
 
+### Advanced Options
 
-
+```bash
 # Run with verbose output
 maestro --verbose test e2e/
 
