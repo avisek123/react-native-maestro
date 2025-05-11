@@ -14,6 +14,39 @@ This repository contains a React Native mobile application with integrated Maest
 - 📲 Sample test flows for common mobile patterns
 
 ---
+🎥 Demo Video
+
+
+https://github.com/user-attachments/assets/5f9cce96-9a38-4a4b-92a5-b2d33ad946e6
+
+
+```bash
+# Example Login Page
+appId: com.awesomeproject # Your application's package name
+---
+# Launch the application and wait for initial load
+- launchApp
+- waitForAnimationToEnd # Ensure all startup animations complete
+
+# LOGIN SECTION
+# ------------------------------
+# Enter username in the Username field
+- tapOn:
+    id: 'Username' # Targets element with ID 'Username'
+- inputText: 'your_username' # Inputs test username
+
+# Enter password in the Password field
+- tapOn:
+    id: 'Password' # Targets element with ID 'Password'
+- inputText: 'your_password_here' # Inputs test password
+
+# LOGIN ACTION
+# ------------------------------
+- tapOn:
+    id: 'Login'
+
+
+```
 
 ## 🧭 Maestro with React Native
 
