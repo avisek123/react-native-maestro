@@ -14,7 +14,7 @@ This repository contains a React Native mobile application with integrated Maest
 - 📲 Sample test flows for common mobile patterns
 
 ---
-🎥 Demo Video
+## 🎥 Demo Video
 
 
 https://github.com/user-attachments/assets/5f9cce96-9a38-4a4b-92a5-b2d33ad946e6
