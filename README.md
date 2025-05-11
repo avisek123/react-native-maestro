@@ -64,10 +64,36 @@ maestro --version
 ## Project Structure
 
 ```bash
-.
+
 ├── android/                  # Android native code
 ├── ios/                      # iOS native code
 ├── e2e/                      # Maestro test suites
 │   └── artifacts/            # Test outputs
 ├── src/                      # React Native source
+```
+
+## Running Tests
+
+### Basic Commands
+
+```bash
+# Run all test suites
+maestro test e2e/
+
+# Run a specific test file
+maestro test e2e/login-flow.yaml
+
+# Run tests on specific device
+maestro test --device=iPhone_15 e2e/
+
+
+
+# Run with verbose output
+maestro --verbose test e2e/
+
+# Run tests with tags
+maestro test --tags=critical e2e/
+
+# Generate JUnit report
+maestro test --format=junit e2e/ > e2e/artifacts/report.xml
 ```
